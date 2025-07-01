@@ -13,7 +13,7 @@ git push origin tags
 Create a tar file containing the install.sh script and the extensions to be installed
 eg duckdb-resources-1.0.0.tar.gz
 
-tar cvf duckdb-resources-1.0.0.tar.gz install.sh *.duckdb_extension.gz
+tar czvf duckdb-resources-1.0.0.tar.gz install.sh *.duckdb_extension.gz
 
 ## Create the GitHub Release
 - Add the tar.gz file to the release
